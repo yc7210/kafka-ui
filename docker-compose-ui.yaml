@@ -8,5 +8,5 @@ services:
     restart: always
     environment:
       - KAFKA_CLUSTERS_0_NAME=local
-      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka-1:9092,kafka-2:9093,kafka-3:9094
-      - KAFKA_CLUSTERS_0_ZOOKEEPER=zookeeper-1:2181
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka1:9092,kafka2:9093,kafka3:9094
+      - KAFKA_CLUSTERS_0_ZOOKEEPER=zoo1:2181,zoo2:2181,zoo3:2181
